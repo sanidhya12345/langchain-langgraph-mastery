@@ -1,0 +1,11 @@
+User question
+    ↓
+Embedding model converts question → vector
+    ↓
+ChromaDB retrieves top-k relevant documents
+    ↓
+Retrieved documents become context
+    ↓
+Gemini receives: context + question
+    ↓
+Grounded answer + sources
